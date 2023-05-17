@@ -10,6 +10,7 @@
   .hour-hand, .minute-hand, .second-hand {
     background: #000;
     position: absolute;
+    top: 14%;
     left: 50%;
     transform-origin: bottom center;
   }
@@ -25,6 +26,9 @@
     width: 4px;
     height: 90px;
     margin-left: -2px;
+    position: absolute;
+    top: 6%;
+    left: 50%;
     border-radius: 5px 5px 0 0;
   }
   
@@ -33,6 +37,9 @@
     height: 100px;
     margin-left: -1px;
     background-color: red;
+    position: absolute;
+    top: 1%;
+    left: 50%;
     border-radius: 5px 5px 0 0;
   }
   
